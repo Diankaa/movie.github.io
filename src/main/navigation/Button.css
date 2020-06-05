@@ -1,0 +1,19 @@
+.search-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.search-btn button {
+  padding: 10px 21px;
+  background: #e27a3f;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.2s ease-out;
+  outline: 0;
+  border: 0;
+}
+
+.search-btn button:hover {
+  color: white;
+}

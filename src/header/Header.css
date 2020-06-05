@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #a9adac;
+}
+
+.header__link {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.header__link img {
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+}
