@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./header/Header";
 import Main from "./main/Main";
 import Movie from "./movie/Movie";
@@ -7,7 +7,7 @@ import NotFound from "./NotFound";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <div>
         <Header />
         <Switch>
@@ -16,7 +16,7 @@ const App = () => {
           <Route component={NotFound} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 };
 

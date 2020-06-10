@@ -76,6 +76,8 @@ class Main extends React.Component {
 
   generateUrl = (params) => {
     const { genres, year, rating, runtime, page, moviesUrl } = params;
+    console.log(params);
+    
     let url;
 
     if (params.searchNav && !params.searchHead) {
